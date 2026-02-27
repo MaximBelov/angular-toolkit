@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Cordova esbuild Serve Target",
+  "description": "Serves a Cordova application with live reload using the esbuild dev server.",
+  "type": "object",
+  "properties": {
+    "cordovaBuildTarget": {
+      "type": "string",
+      "description": "The Cordova build target (using this package's cordova-build builder).",
+      "pattern": "^[^:\\s]+:[^:\\s]+(:[^\\s]+)?$"
+    },
+    "devServerTarget": {
+      "type": "string",
+      "description": "The dev-server target to wrap. Must use @angular-devkit/build-angular:dev-server.",
+      "pattern": "^[^:\\s]+:[^:\\s]+(:[^\\s]+)?$"
+    },
+    "host": {
+      "type": "string",
+      "description": "Host to listen on.",
+      "default": "localhost"
+    },
+    "port": {
+      "type": "number",
+      "description": "Port to listen on.",
+      "default": 4200
+    },
+    "ssl": {
+      "type": "boolean",
+      "description": "Serve over HTTPS.",
+      "default": false
+    },
+    "open": {
+      "type": "boolean",
+      "description": "Open a browser tab.",
+      "default": false
+    },
+    "platform": {
+      "type": "string",
+      "description": "The Cordova platform (android, ios, browser).",
+      "default": ""
+    },
+    "consolelogs": {
+      "type": "boolean",
+      "description": "Print app console logs to the terminal (requires consolelogs-port).",
+      "default": false
+    },
+    "consolelogsPort": {
+      "type": "number",
+      "description": "Port for the console log server.",
+      "default": 53703
+    }
+  },
+  "additionalProperties": false,
+  "required": ["cordovaBuildTarget", "devServerTarget"]
+}

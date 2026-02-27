@@ -11,6 +11,12 @@
       "implementation": "./cordova-serve/index",
       "schema": "./cordova-serve/schema.json",
       "description": "Run the dev-server with Cordova assets."
+    },
+
+    "cordova-esbuild": {
+      "implementation": "./cordova-esbuild/index",
+      "schema": "./cordova-esbuild/schema.json",
+      "description": "Run the vite dev-server with Cordova assets."
     }
   }
 }
