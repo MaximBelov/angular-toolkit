@@ -3,6 +3,129 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 13.0.3-testing.2 (2026-03-11)
+
+
+### Bug Fixes
+
+* **cordova-builders:** release bump ([#515](https://github.com/ionic-team/angular-toolkit/issues/515)) ([047a563](https://github.com/ionic-team/angular-toolkit/commit/047a563db305a07e1a18ac08935d2809dc3a9a04))
+* Remove extra line from README ([#517](https://github.com/ionic-team/angular-toolkit/issues/517)) ([a6d925f](https://github.com/ionic-team/angular-toolkit/commit/a6d925fca2a477e54d9157529cb25b4f48b04176))
+
+
+### Features
+
+* add cordova-builders ng-add ([#467](https://github.com/ionic-team/angular-toolkit/issues/467)) ([1b9a0bd](https://github.com/ionic-team/angular-toolkit/commit/1b9a0bdabdbdcd1f6226a8ddc771abd1f54afd42))
+* **builders:** add support for angular 16.0 ([379d8d4](https://github.com/ionic-team/angular-toolkit/commit/379d8d43d066b1cd556b083ccb506703a166ce1d)), closes [#493](https://github.com/ionic-team/angular-toolkit/issues/493) [#494](https://github.com/ionic-team/angular-toolkit/issues/494)
+* bump deps to angular 14 ([767598e](https://github.com/ionic-team/angular-toolkit/commit/767598eace5bc91767008fd86670729c8079a1d9)), closes [#474](https://github.com/ionic-team/angular-toolkit/issues/474)
+* bump deps to angular 15 ([009079a](https://github.com/ionic-team/angular-toolkit/commit/009079a5cf13804d55a7b1d15c79824cac9db179))
+* bump deps to support angular v15 ([e7fdfd8](https://github.com/ionic-team/angular-toolkit/commit/e7fdfd8581819430b549cfae4a87e9edbadf57c9)), closes [#481](https://github.com/ionic-team/angular-toolkit/issues/481) [#477](https://github.com/ionic-team/angular-toolkit/issues/477) [#482](https://github.com/ionic-team/angular-toolkit/issues/482)
+* split tooling ([#465](https://github.com/ionic-team/angular-toolkit/issues/465)) ([a8303ec](https://github.com/ionic-team/angular-toolkit/commit/a8303ec5df92c9f463ded30fbcb97a908578adf5))
+* support angular 17 ([#508](https://github.com/ionic-team/angular-toolkit/issues/508)) ([c002c51](https://github.com/ionic-team/angular-toolkit/commit/c002c51cc09f45639ca97bc5354840d9c384556c))
+* support angular 18 ([#513](https://github.com/ionic-team/angular-toolkit/issues/513)) ([70d5066](https://github.com/ionic-team/angular-toolkit/commit/70d50665a000c10b1cf5701aad664c2e620541c1))
+* support angular 19 ([#520](https://github.com/ionic-team/angular-toolkit/issues/520)) ([2823580](https://github.com/ionic-team/angular-toolkit/commit/282358057bac80e3f3a3f96cec6b7d8c1380cea0))
+* support angular 20 ([#524](https://github.com/ionic-team/angular-toolkit/issues/524)) ([3525b21](https://github.com/ionic-team/angular-toolkit/commit/3525b2151cca563015618eb0745639133d273842))
+
+
+### BREAKING CHANGES
+
+* The minimum version of Angular required is now 17. Please updates your apps to use
+the latest release of Angular.
+* **builders:** The minimum version of Angular required is now 16. Please updates your apps to use
+the lates release of Angular
+* Apps will need to update to Angular 15 in order to suppor this verion.
+* Apps will need to update to Angular 15 in order to support this version
+* Apps will need to update to Angular 14 in order to suppor this verion.
+* ionic/angular + cordova users will now need to install @ionic/cordova-builders and
+update their angular.json to reflect the new package name
+
+* chore(): fix package description
+
+
+
+
+
+## 13.0.3-testing.1 (2026-03-11)
+
+
+### Bug Fixes
+
+* **cordova-builders:** release bump ([#515](https://github.com/ionic-team/angular-toolkit/issues/515)) ([047a563](https://github.com/ionic-team/angular-toolkit/commit/047a563db305a07e1a18ac08935d2809dc3a9a04))
+* Remove extra line from README ([#517](https://github.com/ionic-team/angular-toolkit/issues/517)) ([a6d925f](https://github.com/ionic-team/angular-toolkit/commit/a6d925fca2a477e54d9157529cb25b4f48b04176))
+
+
+### Features
+
+* add cordova-builders ng-add ([#467](https://github.com/ionic-team/angular-toolkit/issues/467)) ([1b9a0bd](https://github.com/ionic-team/angular-toolkit/commit/1b9a0bdabdbdcd1f6226a8ddc771abd1f54afd42))
+* **builders:** add support for angular 16.0 ([379d8d4](https://github.com/ionic-team/angular-toolkit/commit/379d8d43d066b1cd556b083ccb506703a166ce1d)), closes [#493](https://github.com/ionic-team/angular-toolkit/issues/493) [#494](https://github.com/ionic-team/angular-toolkit/issues/494)
+* bump deps to angular 14 ([767598e](https://github.com/ionic-team/angular-toolkit/commit/767598eace5bc91767008fd86670729c8079a1d9)), closes [#474](https://github.com/ionic-team/angular-toolkit/issues/474)
+* bump deps to angular 15 ([009079a](https://github.com/ionic-team/angular-toolkit/commit/009079a5cf13804d55a7b1d15c79824cac9db179))
+* bump deps to support angular v15 ([e7fdfd8](https://github.com/ionic-team/angular-toolkit/commit/e7fdfd8581819430b549cfae4a87e9edbadf57c9)), closes [#481](https://github.com/ionic-team/angular-toolkit/issues/481) [#477](https://github.com/ionic-team/angular-toolkit/issues/477) [#482](https://github.com/ionic-team/angular-toolkit/issues/482)
+* split tooling ([#465](https://github.com/ionic-team/angular-toolkit/issues/465)) ([a8303ec](https://github.com/ionic-team/angular-toolkit/commit/a8303ec5df92c9f463ded30fbcb97a908578adf5))
+* support angular 17 ([#508](https://github.com/ionic-team/angular-toolkit/issues/508)) ([c002c51](https://github.com/ionic-team/angular-toolkit/commit/c002c51cc09f45639ca97bc5354840d9c384556c))
+* support angular 18 ([#513](https://github.com/ionic-team/angular-toolkit/issues/513)) ([70d5066](https://github.com/ionic-team/angular-toolkit/commit/70d50665a000c10b1cf5701aad664c2e620541c1))
+* support angular 19 ([#520](https://github.com/ionic-team/angular-toolkit/issues/520)) ([2823580](https://github.com/ionic-team/angular-toolkit/commit/282358057bac80e3f3a3f96cec6b7d8c1380cea0))
+* support angular 20 ([#524](https://github.com/ionic-team/angular-toolkit/issues/524)) ([3525b21](https://github.com/ionic-team/angular-toolkit/commit/3525b2151cca563015618eb0745639133d273842))
+
+
+### BREAKING CHANGES
+
+* The minimum version of Angular required is now 17. Please updates your apps to use
+the latest release of Angular.
+* **builders:** The minimum version of Angular required is now 16. Please updates your apps to use
+the lates release of Angular
+* Apps will need to update to Angular 15 in order to suppor this verion.
+* Apps will need to update to Angular 15 in order to support this version
+* Apps will need to update to Angular 14 in order to suppor this verion.
+* ionic/angular + cordova users will now need to install @ionic/cordova-builders and
+update their angular.json to reflect the new package name
+
+* chore(): fix package description
+
+
+
+
+
+## 13.0.3-testing.0 (2026-03-11)
+
+
+### Bug Fixes
+
+* **cordova-builders:** release bump ([#515](https://github.com/ionic-team/angular-toolkit/issues/515)) ([047a563](https://github.com/ionic-team/angular-toolkit/commit/047a563db305a07e1a18ac08935d2809dc3a9a04))
+* Remove extra line from README ([#517](https://github.com/ionic-team/angular-toolkit/issues/517)) ([a6d925f](https://github.com/ionic-team/angular-toolkit/commit/a6d925fca2a477e54d9157529cb25b4f48b04176))
+
+
+### Features
+
+* add cordova-builders ng-add ([#467](https://github.com/ionic-team/angular-toolkit/issues/467)) ([1b9a0bd](https://github.com/ionic-team/angular-toolkit/commit/1b9a0bdabdbdcd1f6226a8ddc771abd1f54afd42))
+* **builders:** add support for angular 16.0 ([379d8d4](https://github.com/ionic-team/angular-toolkit/commit/379d8d43d066b1cd556b083ccb506703a166ce1d)), closes [#493](https://github.com/ionic-team/angular-toolkit/issues/493) [#494](https://github.com/ionic-team/angular-toolkit/issues/494)
+* bump deps to angular 14 ([767598e](https://github.com/ionic-team/angular-toolkit/commit/767598eace5bc91767008fd86670729c8079a1d9)), closes [#474](https://github.com/ionic-team/angular-toolkit/issues/474)
+* bump deps to angular 15 ([009079a](https://github.com/ionic-team/angular-toolkit/commit/009079a5cf13804d55a7b1d15c79824cac9db179))
+* bump deps to support angular v15 ([e7fdfd8](https://github.com/ionic-team/angular-toolkit/commit/e7fdfd8581819430b549cfae4a87e9edbadf57c9)), closes [#481](https://github.com/ionic-team/angular-toolkit/issues/481) [#477](https://github.com/ionic-team/angular-toolkit/issues/477) [#482](https://github.com/ionic-team/angular-toolkit/issues/482)
+* split tooling ([#465](https://github.com/ionic-team/angular-toolkit/issues/465)) ([a8303ec](https://github.com/ionic-team/angular-toolkit/commit/a8303ec5df92c9f463ded30fbcb97a908578adf5))
+* support angular 17 ([#508](https://github.com/ionic-team/angular-toolkit/issues/508)) ([c002c51](https://github.com/ionic-team/angular-toolkit/commit/c002c51cc09f45639ca97bc5354840d9c384556c))
+* support angular 18 ([#513](https://github.com/ionic-team/angular-toolkit/issues/513)) ([70d5066](https://github.com/ionic-team/angular-toolkit/commit/70d50665a000c10b1cf5701aad664c2e620541c1))
+* support angular 19 ([#520](https://github.com/ionic-team/angular-toolkit/issues/520)) ([2823580](https://github.com/ionic-team/angular-toolkit/commit/282358057bac80e3f3a3f96cec6b7d8c1380cea0))
+* support angular 20 ([#524](https://github.com/ionic-team/angular-toolkit/issues/524)) ([3525b21](https://github.com/ionic-team/angular-toolkit/commit/3525b2151cca563015618eb0745639133d273842))
+
+
+### BREAKING CHANGES
+
+* The minimum version of Angular required is now 17. Please updates your apps to use
+the latest release of Angular.
+* **builders:** The minimum version of Angular required is now 16. Please updates your apps to use
+the lates release of Angular
+* Apps will need to update to Angular 15 in order to suppor this verion.
+* Apps will need to update to Angular 15 in order to support this version
+* Apps will need to update to Angular 14 in order to suppor this verion.
+* ionic/angular + cordova users will now need to install @ionic/cordova-builders and
+update their angular.json to reflect the new package name
+
+* chore(): fix package description
+
+
+
+
+
 # [12.3.0](https://github.com/ionic-team/angular-toolkit/compare/@ionic/cordova-builders@12.2.0...@ionic/cordova-builders@12.3.0) (2025-08-11)
 
 

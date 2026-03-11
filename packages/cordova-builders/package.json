@@ -1,6 +1,6 @@
 {
-  "name": "@ionic/cordova-builders",
-  "version": "12.3.0",
+  "name": "@ionic-hotfix/cordova-builders",
+  "version": "13.0.3-testing.2",
   "license": "MIT",
   "description": "Cordova builders for @ionic/angular apps",
   "homepage": "https://ionicframework.com/",
@@ -57,5 +57,5 @@
   },
   "builders": "./builders.json",
   "schematics": "./collection.json",
-  "gitHead": "35dbfaa5d93cb165387321a3f8a0f43e604f5d02"
+  "gitHead": "bada90a6f37dd57607600dd95d21abb8b1e5710a"
 }
