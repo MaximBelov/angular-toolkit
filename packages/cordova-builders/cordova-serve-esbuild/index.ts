@@ -39,17 +39,10 @@ export function serveCordova(options: CordovaServeBuilderSchema, context: Builde
   async function setup() {
     const devServerTargetOptions = await context.getTargetOptions(devServerTargetSpec);
     const devServerName = await context.getBuilderNameForTarget(devServerTargetSpec);
-    console.log(devServerTargetOptions, devServerName);
-
-    // console.log(devServerTargetOptions);
 
     devServerTargetOptions.port = port;
     devServerTargetOptions.host = host;
     devServerTargetOptions.ssl = ssl;
-
-
-    // delete devServerTargetOptions.serviceWorker;
-
 
     const formattedOptions = await context.validateOptions<DevServerBuilderOptions & json.JsonObject>(devServerTargetOptions, devServerName);
     const serverAssets = prepareEsbuildServerConfig(options, root);
